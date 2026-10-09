@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 90;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE2F60F62E6CC8490035E726 /* BTPermController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2F60F52E6CC8490035E726 /* BTPermController.swift */; };
+		CE6054FE2F79144A009382C0 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6054FD2F79144A009382C0 /* SettingsView.swift */; };
+		CE6055002F792BEF009382C0 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6054FF2F792BEF009382C0 /* Utilities.swift */; };
+		CE75FCD22E4E6A3500F8D523 /* Heuristics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE75FCD12E4E6A3400F8D523 /* Heuristics.swift */; };
+		CE7641CC2E45FC4A00ADCC92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE7641CB2E45FC4A00ADCC92 /* Assets.xcassets */; };
+		CE7641DC2E45FD8F00ADCC92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7641DB2E45FD8F00ADCC92 /* AppDelegate.swift */; };
+		CE7641E02E46019200ADCC92 /* ConnectivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7641DF2E46019200ADCC92 /* ConnectivityController.swift */; };
+		CE7B72BF2E48A4AA00A32D2A /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B72BE2E48A4AA00A32D2A /* Preferences.swift */; };
+		CE7B72C12E4A9C8300A32D2A /* EventLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B72C02E4A9C8300A32D2A /* EventLogic.swift */; };
+		CE7B72C32E4A9C9000A32D2A /* MonitorSleep.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B72C22E4A9C9000A32D2A /* MonitorSleep.swift */; };
+		CE7B72C52E4A9C9600A32D2A /* MonitorDock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B72C42E4A9C9600A32D2A /* MonitorDock.swift */; };
+		CE7B72CB2E4BD73900A32D2A /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B72CA2E4BD73900A32D2A /* Notifications.swift */; };
+		CEAA00012F900001000000A1 /* DebugLogKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA00022F900002000000A1 /* DebugLogKit.swift */; };
+		CEAA00032F900003000000A1 /* SettingsKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA00042F900004000000A1 /* SettingsKit.swift */; };
+		CEAA00052F900005000000A1 /* MenuControlKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA00062F900006000000A1 /* MenuControlKit.swift */; };
+		CEAA00072F900007000000A1 /* TogglerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAA00082F900008000000A1 /* TogglerMenu.swift */; };
+		CEAA00092F900009000000A1 /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = CEAA000A2F90000A000000A1 /* Credits.html */; };
+		DF4A6E8809C86CD269C5214B /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = A284B6E06F963D03BDF956CC /* COPYING */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE7B72BB2E47D08500A32D2A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = "";
+			dstSubfolder = Resources;
+			files = (
+			);
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A284B6E06F963D03BDF956CC /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		CE2F60F52E6CC8490035E726 /* BTPermController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTPermController.swift; sourceTree = "<group>"; };
+		CE6054FD2F79144A009382C0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CE6054FF2F792BEF009382C0 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		CE75FCD12E4E6A3400F8D523 /* Heuristics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heuristics.swift; sourceTree = "<group>"; };
+		CE7641C42E45FC4A00ADCC92 /* Toggler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toggler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7641CB2E45FC4A00ADCC92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE7641D52E45FC4A00ADCC92 /* Toggler.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Toggler.entitlements; sourceTree = "<group>"; };
+		CE7641DB2E45FD8F00ADCC92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE7641DF2E46019200ADCC92 /* ConnectivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectivityController.swift; sourceTree = "<group>"; };
+		CE7B72BE2E48A4AA00A32D2A /* Preferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		CE7B72C02E4A9C8300A32D2A /* EventLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventLogic.swift; sourceTree = "<group>"; };
+		CE7B72C22E4A9C9000A32D2A /* MonitorSleep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorSleep.swift; sourceTree = "<group>"; };
+		CE7B72C42E4A9C9600A32D2A /* MonitorDock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorDock.swift; sourceTree = "<group>"; };
+		CE7B72CA2E4BD73900A32D2A /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		CEAA00022F900002000000A1 /* DebugLogKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugLogKit.swift; sourceTree = "<group>"; };
+		CEAA00042F900004000000A1 /* SettingsKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsKit.swift; sourceTree = "<group>"; };
+		CEAA00062F900006000000A1 /* MenuControlKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuControlKit.swift; sourceTree = "<group>"; };
+		CEAA00082F900008000000A1 /* TogglerMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TogglerMenu.swift; sourceTree = "<group>"; };
+		CEAA000A2F90000A000000A1 /* Credits.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE7641C12E45FC4A00ADCC92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE7641BB2E45FC4A00ADCC92 = {
+			isa = PBXGroup;
+			children = (
+				CE7641C62E45FC4A00ADCC92 /* Toggler */,
+				CE7641C52E45FC4A00ADCC92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE7641C52E45FC4A00ADCC92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE7641C42E45FC4A00ADCC92 /* Toggler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE7641C62E45FC4A00ADCC92 /* Toggler */ = {
+			isa = PBXGroup;
+			children = (
+				CE7641DB2E45FD8F00ADCC92 /* AppDelegate.swift */,
+				CE2F60F52E6CC8490035E726 /* BTPermController.swift */,
+				CE7641DF2E46019200ADCC92 /* ConnectivityController.swift */,
+				CE7B72C02E4A9C8300A32D2A /* EventLogic.swift */,
+				CE7B72C22E4A9C9000A32D2A /* MonitorSleep.swift */,
+				CE7B72C42E4A9C9600A32D2A /* MonitorDock.swift */,
+				CE75FCD12E4E6A3400F8D523 /* Heuristics.swift */,
+				CE6054FD2F79144A009382C0 /* SettingsView.swift */,
+				CE6054FF2F792BEF009382C0 /* Utilities.swift */,
+				CE7B72CA2E4BD73900A32D2A /* Notifications.swift */,
+				CE7B72BE2E48A4AA00A32D2A /* Preferences.swift */,
+				CEAA00022F900002000000A1 /* DebugLogKit.swift */,
+				CEAA00042F900004000000A1 /* SettingsKit.swift */,
+				CEAA00062F900006000000A1 /* MenuControlKit.swift */,
+				CEAA00082F900008000000A1 /* TogglerMenu.swift */,
+				CE7641CB2E45FC4A00ADCC92 /* Assets.xcassets */,
+				CEAA000A2F90000A000000A1 /* Credits.html */,
+				A284B6E06F963D03BDF956CC /* COPYING */,
+				CE7641D52E45FC4A00ADCC92 /* Toggler.entitlements */,
+			);
+			path = Toggler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE7641C32E45FC4A00ADCC92 /* Toggler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE7641D82E45FC4A00ADCC92 /* Build configuration list for PBXNativeTarget "Toggler" */;
+			buildPhases = (
+				CE7641C02E45FC4A00ADCC92 /* Sources */,
+				CE7641C12E45FC4A00ADCC92 /* Frameworks */,
+				CE7641C22E45FC4A00ADCC92 /* Resources */,
+				CE7B72BB2E47D08500A32D2A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			name = Toggler;
+			productName = Toggler;
+			productReference = CE7641C42E45FC4A00ADCC92 /* Toggler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE7641BC2E45FC4A00ADCC92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					CE7641C32E45FC4A00ADCC92 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = CE7641BF2E45FC4A00ADCC92 /* Build configuration list for PBXProject "Toggler" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE7641BB2E45FC4A00ADCC92;
+			preferredProjectObjectVersion = 90;
+			productRefGroup = CE7641C52E45FC4A00ADCC92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE7641C32E45FC4A00ADCC92 /* Toggler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE7641C22E45FC4A00ADCC92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				CEAA00092F900009000000A1 /* Credits.html in Resources */,
+				DF4A6E8809C86CD269C5214B /* COPYING in Resources */,
+				CE7641CC2E45FC4A00ADCC92 /* Assets.xcassets in Resources */,
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE7641C02E45FC4A00ADCC92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				CEAA00012F900001000000A1 /* DebugLogKit.swift in Sources */,
+				CEAA00032F900003000000A1 /* SettingsKit.swift in Sources */,
+				CEAA00052F900005000000A1 /* MenuControlKit.swift in Sources */,
+				CEAA00072F900007000000A1 /* TogglerMenu.swift in Sources */,
+				CE7B72CB2E4BD73900A32D2A /* Notifications.swift in Sources */,
+				CE6054FE2F79144A009382C0 /* SettingsView.swift in Sources */,
+				CE7641DC2E45FD8F00ADCC92 /* AppDelegate.swift in Sources */,
+				CE75FCD22E4E6A3500F8D523 /* Heuristics.swift in Sources */,
+				CE7B72BF2E48A4AA00A32D2A /* Preferences.swift in Sources */,
+				CE7B72C12E4A9C8300A32D2A /* EventLogic.swift in Sources */,
+				CE7B72C32E4A9C9000A32D2A /* MonitorSleep.swift in Sources */,
+				CE7641E02E46019200ADCC92 /* ConnectivityController.swift in Sources */,
+				CE6055002F792BEF009382C0 /* Utilities.swift in Sources */,
+				CE7B72C52E4A9C9600A32D2A /* MonitorDock.swift in Sources */,
+				CE2F60F62E6CC8490035E726 /* BTPermController.swift in Sources */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE7641D62E45FC4A00ADCC92 /* Debug configuration for PBXProject "Toggler" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE7641D72E45FC4A00ADCC92 /* Release configuration for PBXProject "Toggler" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CE7641D92E45FC4A00ADCC92 /* Debug configuration for PBXNativeTarget "Toggler" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Toggler/Toggler.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 414;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Toggler;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Toggler must have access to Bluetooth in order to automatically switch the interface state upon dock/undock and sleep/wake events.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 avenged110. Licensed under GPL-3.0-only.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.toggler;
+				PRODUCT_NAME = Toggler;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_STRICT_MEMORY_SAFETY = YES;
+				SWIFT_UPCOMING_FEATURE_EXISTENTIAL_ANY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		CE7641DA2E45FC4A00ADCC92 /* Release configuration for PBXNativeTarget "Toggler" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Toggler/Toggler.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 414;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Toggler;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Toggler must have access to Bluetooth in order to automatically switch the interface state upon dock/undock and sleep/wake events.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2025 avenged110. Licensed under GPL-3.0-only.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.6;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.toggler;
+				PRODUCT_NAME = Toggler;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_STRICT_MEMORY_SAFETY = YES;
+				SWIFT_UPCOMING_FEATURE_EXISTENTIAL_ANY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE7641BF2E45FC4A00ADCC92 /* Build configuration list for PBXProject "Toggler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7641D62E45FC4A00ADCC92 /* Debug configuration for PBXProject "Toggler" */,
+				CE7641D72E45FC4A00ADCC92 /* Release configuration for PBXProject "Toggler" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		CE7641D82E45FC4A00ADCC92 /* Build configuration list for PBXNativeTarget "Toggler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7641D92E45FC4A00ADCC92 /* Debug configuration for PBXNativeTarget "Toggler" */,
+				CE7641DA2E45FC4A00ADCC92 /* Release configuration for PBXNativeTarget "Toggler" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE7641BC2E45FC4A00ADCC92 /* Project object */;
+}

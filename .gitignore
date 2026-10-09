@@ -1,0 +1,6 @@
+Toggler.xcodeproj/xcuserdata/
+Toggler.xcodeproj/project.xcworkspace/xcuserdata/
+/build/
+.DS_Store
+DerivedData/
+*.dmg
